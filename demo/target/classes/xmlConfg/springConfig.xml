@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="District" class="com.example.demo.DemoApplication" >
+        <property name="distrit1" value="Орджоникидзевски" />
+        <property name="distrit2" value="Ленинский" />
+        <property name="distrit3" value="Чкаловский" />
+        <property name="distrit4" value="Октябрьский" />
+        <property name="distrit5" value="Кировский" />
+        <property name="distrit6" value="Железнодорожный" />
+        <property name="distrit7" value="Верх-Исетский" />
+</bean>
+
+        </beans>
